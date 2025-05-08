@@ -6,7 +6,7 @@
 /*   By: gicomlan <gicomlan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 13:57:15 by gicomlan          #+#    #+#             */
-/*   Updated: 2025/05/08 13:57:16 by gicomlan         ###   ########.fr       */
+/*   Updated: 2025/05/08 14:11:53 by gicomlan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
  */
 void	ft_putchar(char c)
 {
-	write(1, &c, 1);
+	write(STDOUT_FILENO, &c, sizeof(c));
 }
 
 /**

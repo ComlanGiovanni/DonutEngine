@@ -6,7 +6,7 @@
 /*   By: gicomlan <gicomlan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 13:59:01 by gicomlan          #+#    #+#             */
-/*   Updated: 2025/05/08 14:00:44 by gicomlan         ###   ########.fr       */
+/*   Updated: 2025/05/08 14:15:39 by gicomlan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void    ft_render_frame(t_donut *donut)
         while (tube_angle < FULL_CIRCLE)
         {
             ft_render_point(tube_angle, main_angle, donut);
-            tube_angle += donut->render.tube_step;
+            tube_angle += donut->render.ring_step;
         }
         main_angle += donut->render.main_circle_step;
     }

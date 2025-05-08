@@ -6,7 +6,7 @@
 /*   By: gicomlan <gicomlan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 13:55:48 by gicomlan          #+#    #+#             */
-/*   Updated: 2025/05/08 14:00:21 by gicomlan         ###   ########.fr       */
+/*   Updated: 2025/05/08 14:13:25 by gicomlan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FT_DONUT_H
 
 # include <math.h>
+# include <stddef.h>
 
 /** @brief Terminal screen width */
 # define SCREEN_WIDTH 80

@@ -6,7 +6,7 @@
 /*   By: gicomlan <gicomlan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 13:57:54 by gicomlan          #+#    #+#             */
-/*   Updated: 2025/05/08 13:57:56 by gicomlan         ###   ########.fr       */
+/*   Updated: 2025/05/08 14:13:45 by gicomlan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	ft_init_donut(t_donut *donut)
 	donut->render.shades = ".,-~:;=!*#$@";
 	/** Higher values = lower resolution, faster rendering */
 	donut->render.ring_step = 0.02;
-	donut->render.donut_step = 0.07;
+	donut->render.main_circle_step = 0.07;
 	/** Initialize buffers with empty space and zero depth */
 	ft_memset(donut->buf.output, ' ', BUFFER_SIZE);
 	ft_memset(donut->buf.depth, 0, BUFFER_SIZE * sizeof(float));
