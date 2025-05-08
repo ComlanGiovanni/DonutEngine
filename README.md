@@ -35,6 +35,6 @@ gcc compact_fire.c -o fire
 ## Credits
 
 Original donut algorithm by [Andy Sloane](https://github.com/a1k0n)
-[Read his blog post about the math behind the donut](https://www.a1k0n.net/2011/07/20/donut-math.html)
+Read his blog [Blog](https://www.a1k0n.net/2011/07/20/donut-math.html) about the math behind the donut
 
-Made with Monster Energy
+Made with Monster Energy !
