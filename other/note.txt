@@ -1,0 +1,39 @@
+https://www.a1k0n.net/
+https://www.a1k0n.net/2011/07/20/donut-math.html
+https://github.com/ioccc-src/winner
+
+cc file.txt -lm -o donut && ./donut
+
+
+// without -lm math linker
+rime_version.c:4:14: warning: data definition has no type or storage class
+    4 |              k;double sin()
+      |              ^
+prime_version.c:4:14: warning: type defaults to ‘int’ in declaration of ‘k’ [-Wimplicit-int]
+prime_version.c:5:17: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    5 |          ,cos();main(){float A=
+      |                 ^~~~
+/usr/bin/ld: /tmp/ccjcEqdT.o: in function `main':
+prime_version.c:(.text+0xcd): undefined reference to `sin'
+/usr/bin/ld: prime_version.c:(.text+0xf4): undefined reference to `cos'
+/usr/bin/ld: prime_version.c:(.text+0x11b): undefined reference to `sin'
+/usr/bin/ld: prime_version.c:(.text+0x142): undefined reference to `sin'
+/usr/bin/ld: prime_version.c:(.text+0x169): undefined reference to `cos'
+/usr/bin/ld: prime_version.c:(.text+0x1fb): undefined reference to `cos'
+/usr/bin/ld: prime_version.c:(.text+0x222): undefined reference to `cos'
+/usr/bin/ld: prime_version.c:(.text+0x249): undefined reference to `sin'
+collect2: error: ld returned 1 exit status
+
+
+
+
+// warning but can run the assembly output
+prime_version.c:4:14: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+             k;double sin()
+             ^
+prime_version.c:5:17: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+         ,cos();main(){float A=
+                ^
+2 warnings generated.
+
+
