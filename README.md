@@ -11,7 +11,7 @@ This is just ASCII art animation inspired by Andy Sloane, check out his blog: ht
 
 ## why?
 
-Because i was bored
+Because i was bored..........zzZZZ
 
 ## Utilisation
 
@@ -34,7 +34,7 @@ gcc compact_fire.c -o fire
 
 ## Credits
 
-Original donut code by Andy Sloane: https://github.com/a1k0n
-Blog post explaining the algorithm: https://www.a1k0n.net/2011/07/20/donut-math.html
+Original donut algorithm by [Andy Sloane](https://github.com/a1k0n)
+[Read his blog post about the math behind the donut](https://www.a1k0n.net/2011/07/20/donut-math.html)
 
 Made with Monster Energy
